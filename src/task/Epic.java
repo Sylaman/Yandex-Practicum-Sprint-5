@@ -1,4 +1,8 @@
+package task;
+
 import java.util.ArrayList;
+
+import enums.Status;
 
 public class Epic extends Task {
 
@@ -30,7 +34,7 @@ public class Epic extends Task {
 
     @Override
     public String toString() {
-        return "Epic{" +
+        return "Task.Epic{" +
                 "name= " + getName() + '\'' +
                 ", description = " + getDescription() + '\'' +
                 ", id=" + getId() +
